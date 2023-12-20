@@ -1,1 +1,230 @@
 git commit -m "Your commit message here"
+git commit -m "Your commit message here"
+# -aws-infrastructure-setup
+ (use "git add <file>..." to include in what will be committed)
+        cloudformation-template.yaml
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS C:\Users\Shubham\OneDrive\Documents\GitHub\-aws-infrastructure-setup> git push origin feature-branch
+>>
+Everything up-to-date
+PS C:\Users\Shubham\OneDrive\Documents\GitHub\-aws-infrastructure-setup> git add .
+>>
+PS C:\Users\Shubham\OneDrive\Documents\GitHub\-aws-infrastructure-setup> git commit -m "Your commit message here"
+>>
+[feature-branch 58b0b0b] Your commit message here
+ 1 file changed, 1 insertion(+)
+ create mode 100644 cloudformation-template.yaml
+PS C:\Users\Shubham\OneDrive\Documents\GitHub\-aws-infrastructure-setup> git push origin feature-branch
+>>
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 341 bytes | 341.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/shubhamranjan21/-aws-infrastructure-setup.git
+   d186998..58b0b0b  feature-branch -> feature-branch
+PS C:\Users\Shubham\OneDrive\Documents\GitHub\-aws-infrastructure-setup> git branch -d feature-branch
+>>
+error: cannot delete branch 'feature-branch' used by worktree at 'C:/Users/Shubham/OneDrive/Documents/GitHub/-aws-infrastructure-setup'
+PS C:\Users\Shubham\OneDrive\Documents\GitHub\-aws-infrastructure-setup> git checkout main
+>> git pull origin main
+>>
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+From https://github.com/shubhamranjan21/-aws-infrastructure-setup
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+PS C:\Users\Shubham\OneDrive\Documents\GitHub\-aws-infrastructure-setup> git fetch origin
+>>
+PS C:\Users\Shubham\OneDrive\Documents\GitHub\-aws-infrastructure-setup> git branch -D feature-branch
+>>
+Deleted branch feature-branch (was 58b0b0b).
+PS C:\Users\Shubham\OneDrive\Documents\GitHub\-aws-infrastructure-setup> git push origin --delete feature-branch
+>>
+To https://github.com/shubhamranjan21/-aws-infrastructure-setup.git
+ - [deleted]         feature-branch
+PS C:\Users\Shubham\OneDrive\Documents\GitHub\-aws-infrastructure-setup> git checkout main
+>> git pull origin main
+>>
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+From https://github.com/shubhamranjan21/-aws-infrastructure-setup
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+PS C:\Users\Shubham\OneDrive\Documents\GitHub\-aws-infrastructure-setup> git add .
+>> git commit -m "Completed project"
+>> git push origin main
+>>
+[main b94e95e] Completed project
+ 1 file changed, 1 insertion(+)
+ create mode 100644 cloudformation-template.yaml
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 337 bytes | 337.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/shubhamranjan21/-aws-infrastructure-setup.git
+   d186998..b94e95e  main -> main
+PS C:\Users\Shubham\OneDrive\Documents\GitHub\-aws-infrastructure-setup> git add cloudformation-template.yaml
+>> git commit -m "Add CloudFormation template"
+>> git push origin main
+>>
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+Everything up-to-date
+PS C:\Users\Shubham\OneDrive\Documents\GitHub\-aws-infrastructure-setup> git add .  # This stages all changes, including new files
+>> git commit -m "Your commit message here"
+>> git push origin main
+>>
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+Everything up-to-date
+PS C:\Users\Shubham\OneDrive\Documents\GitHub\-aws-infrastructure-setup> git add cloudformation-template.yaml
+>> git commit -m "Update CloudFormation template with AWS infrastructure"
+>> git push origin main
+>>
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+Everything up-to-date
+PS C:\Users\Shubham\OneDrive\Documents\GitHub\-aws-infrastructure-setup> ^B
+☻ : The term '☻' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that 
+the path is correct and try again.
+At line:1 char:1
++ ☻
++ ~
+    + CategoryInfo          : ObjectNotFound: (☻:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Shubham\OneDrive\Documents\GitHub\-aws-infrastructure-setup> git commit -m "Update CloudFormation template with AWS infrastructure"
+>>
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+PS C:\Users\Shubham\OneDrive\Documents\GitHub\-aws-infrastructure-setup>
+ *  History restored 
+
+PS C:\Users\Shubham\OneDrive\Documents\GitHub\-aws-infrastructure-setup> git add cloudformation-template.yaml
+>> git commit -m "Update CloudFormation template with AWS infrastructure"
+>> git push origin main
+>>
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+Everything up-to-date
+PS C:\Users\Shubham\OneDrive\Documents\GitHub\-aws-infrastructure-setup> git status
+>>
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+PS C:\Users\Shubham\OneDrive\Documents\GitHub\-aws-infrastructure-setup> git add cloudformation-template.yaml
+>> git commit -m "Update CloudFormation template with AWS infrastructure"
+>>
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+PS C:\Users\Shubham\OneDrive\Documents\GitHub\-aws-infrastructure-setup> git add -A
+>> git commit -m "Update CloudFormation template with AWS infrastructure"
+>>
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+PS C:\Users\Shubham\OneDrive\Documents\GitHub\-aws-infrastructure-setup> # Clone the repository into a new directory
+>> git clone https://github.com/shubhamranjan21/-aws-infrastructure-setup.git new-directory
+>>
+>> # Move into the new directory
+>> cd new-directory
+>>
+>> # Make your changes
+>>
+Cloning into 'new-directory'...
+remote: Enumerating objects: 12, done.
+remote: Counting objects: 100% (12/12), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 12 (delta 1), reused 8 (delta 0), pack-reused 0
+Receiving objects: 100% (12/12), done.
+Resolving deltas: 100% (1/1), done.
+PS C:\Users\Shubham\OneDrive\Documents\GitHub\-aws-infrastructure-setup\new-directory> git add -A
+>> git commit -m "Update CloudFormation template with AWS infrastructure"
+>> git push origin main
+>>
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+Everything up-to-date
+PS C:\Users\Shubham\OneDrive\Documents\GitHub\-aws-infrastructure-setup\new-directory>cd C:\Users\Shubham\OneDrive\Documents\GitHub\-aws-infrastructure-setup
+>>
+PS C:\Users\Shubham\OneDrive\Documents\GitHub\-aws-infrastructure-setup> git add .
+>> git commit -m "Update CloudFormation template with AWS infrastructure"
+>>
+warning: adding embedded git repository: new-directory
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> new-directory
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached new-directory
+hint:
+hint: See "git help submodule" for more information.
+[main b3d13e3] Update CloudFormation template with AWS infrastructure
+ 1 file changed, 1 insertion(+)
+ create mode 160000 new-directory
+PS C:\Users\Shubham\OneDrive\Documents\GitHub\-aws-infrastructure-setup> git push origin main
+>>
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 299 bytes | 299.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/shubhamranjan21/-aws-infrastructure-setup.git
+   b94e95e..b3d13e3  main -> main
+PS C:\Users\Shubham\OneDrive\Documents\GitHub\-aws-infrastructure-setup> # Go to your local repository directory
+>> cd C:\Users\Shubham\OneDrive\Documents\GitHub\-aws-infrastructure-setup
+>>
+>> # Add, commit, and push the file again
+>> git add cloudformation-template.yaml
+>> git commit -m "Update CloudFormation template with AWS infrastructure"
+>> git push origin main
+>>
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+Everything up-to-date
+PS C:\Users\Shubham\OneDrive\Documents\GitHub\-aws-infrastructure-setup>
+failed-fwd-i-search: _
+
+
+
+
+
+
+
+
+
+
+
+
+
+
